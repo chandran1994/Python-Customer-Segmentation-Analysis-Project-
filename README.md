@@ -3,10 +3,6 @@
 ## Project Overview
 This project applies **Customer Segmentation Analytics** to identify high-value customer groups, analyze purchasing behavior, and generate actionable supply chain insights using Python.
 
-The analysis is inspired by concepts from **Chapter 5 – Customer Management** from the book:
-
-> *Supply Chain Analytics: Concepts, Techniques and Applications* by Kurt Y. Liu.
-
 The project demonstrates how customer analytics can support:
 - Demand-driven supply chains
 - Customer-centric decision making
@@ -279,5 +275,3 @@ This project demonstrates how customer analytics can support strategic supply ch
 - Improved customer targeting
 - Enhanced inventory planning
 - Smarter regional distribution strategies
-
----
