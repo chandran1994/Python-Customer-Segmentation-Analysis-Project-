@@ -1,270 +1,265 @@
-# Customer Segmentation Analysis for Supply Chain Decision-Making
+# Customer Segmentation & Customer Analytics for Business Decision-Making
 
 ## Project Overview
-This project applies **Customer Segmentation Analytics** to identify high-value customer groups, analyze purchasing behavior, and generate actionable supply chain insights using Python.
 
-The project demonstrates how customer analytics can support:
-- Demand-driven supply chains
-- Customer-centric decision making
-- Inventory planning
-- Regional demand optimization
-- Revenue growth strategies
+This project focuses on customer analytics and segmentation using transactional sales data to identify high-value customer groups, understand purchasing behavior, and generate business insights that support marketing, inventory planning, and demand management decisions.
 
----
+The objective was to move beyond simple sales reporting and develop a structured customer analytics framework capable of answering critical business questions:
 
-# Business Problem
+* Who are the most valuable customers?
+* Which customer groups drive the majority of revenue?
+* How does purchasing behavior differ across customer segments?
+* Which regions and product categories contribute most to sales?
+* How can customer insights support inventory and supply chain decisions?
 
-Retail and supply chain businesses generate massive amounts of customer transaction data, but most organizations fail to convert this data into actionable insights.
-
-Without customer segmentation:
-- Marketing becomes inefficient
-- Inventory allocation becomes inaccurate
-- Demand planning suffers
-- Customer retention weakens
-- Supply chain responsiveness decreases
-
-This project focuses on identifying:
-- Who the most valuable customers are
-- Which customer groups drive revenue
-- What products are most demanded
-- Which regions contribute most to sales
-- How customer behavior impacts supply chain decisions
+The project combines Exploratory Data Analysis (EDA), RFM Analysis, Cohort Analysis, and Clustering Algorithms to create a complete customer segmentation workflow.
 
 ---
 
-# Project Objectives
+## Project Notebooks
 
-- Perform Exploratory Data Analysis (EDA) on customer sales data
-- Identify high-value customer segments
-- Understand customer purchasing behavior
-- Analyze demographic and regional sales trends
-- Generate supply chain-focused business recommendations
-- Support customer-centric supply chain strategies
-
----
-
-# Supply Chain Perspective
-
-- Demand Management
-- Inventory Optimization
-- Regional Distribution Planning
-- Customer-Centric Supply Chain Design
-- Revenue Forecasting
-- Product Demand Analysis
+| Notebook                                  | Objective                                                                |
+| ----------------------------------------- | ------------------------------------------------------------------------ |
+| Exploratory Data Analysis.ipynb           | Analyze customer demographics, purchasing behavior, and sales patterns   |
+| Cohort Analysis.ipynb                     | Measure customer retention and repeat purchase behavior over time        |
+| RFM Analysis & Clustering Algorithm.ipynb | Segment customers using Recency, Frequency, and Monetary metrics         |
+| Clustering Algorithms.ipynb               | Apply unsupervised machine learning techniques for customer segmentation |
 
 ---
 
-# Tools & Technologies Used
+## View Notebooks
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+### Exploratory Data Analysis
 
----
+📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/Exploratory%20Data%20Analysis.ipynb)
 
-# Dataset Features
+### Cohort Analysis
 
-The dataset contains:
-- Gender
-- Age Group
-- Marital Status
-- Occupation
-- State
-- Product Category
-- Sales Amount
-- Product ID
-- Order Information
+📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/Cohort%20Analysis.ipynb)
+
+### RFM Analysis & Clustering
+
+📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/RMF%20Analysis%20%26%20Clustering%20Algorithm.ipynb)
+
+### Clustering Algorithms
+
+📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/Clustering%20Algorithms.ipynb)
 
 ---
 
-# Data Cleaning & Preparation
+# Customer Analytics Workflow
 
-The following preprocessing steps were performed:
-- Handling missing values
-- Removing duplicates
-- Data formatting
-- Aggregation and grouping
-- Revenue calculations
-- Data validation
-
----
-
-# Exploratory Data Analysis (EDA)
-
-## 1. Gender Analysis
-
-### Findings
-- Female customers generated significantly higher revenue than male customers.
-- Women represented the dominant purchasing segment.
-
-### Supply Chain Insight
-Understanding dominant customer groups helps:
-- Improve demand forecasting
-- Optimize inventory allocation
-- Design targeted fulfillment strategies
+```text
+Customer Transaction Data
+            ↓
+Data Cleaning & Preparation
+            ↓
+Exploratory Data Analysis
+            ↓
+Customer Behavior Analysis
+            ↓
+RFM Analysis
+            ↓
+Cohort Analysis
+            ↓
+Customer Clustering
+            ↓
+Business Recommendations
+```
 
 ---
 
-## 2. Age Group Analysis
+## Data Preparation
 
-### Findings
-- Customers aged **26–35** generated the highest revenue.
-- Followed by:
-  - 36–45
-  - 18–25 age groups
+The project began with data cleaning and preprocessing to ensure analytical accuracy and reliability.
 
-### Supply Chain Insight
-Age-based purchasing behavior helps improve:
-- Product assortment planning
-- Demand segmentation
-- Promotional inventory allocation
+Key preprocessing activities included:
 
----
+* Missing value treatment
+* Duplicate removal
+* Data type validation
+* Customer-level aggregation
+* Revenue calculations
+* Feature transformation
+* Data quality checks
 
-## 3. State-Wise Sales Analysis
-
-### Findings
-Top-performing states:
-- Uttar Pradesh
-- Maharashtra
-- Karnataka
-
-### Supply Chain Insight
-Regional demand analysis supports:
-- Warehouse positioning
-- Distribution optimization
-- Logistics planning
-- Inventory balancing
+The cleaned dataset provided a reliable foundation for customer behavior analysis and segmentation.
 
 ---
 
-## 4. Marital Status Analysis
+## Exploratory Data Analysis
 
-### Findings
-- Married women contributed the highest purchasing power.
+The first analytical stage focused on understanding customer purchasing patterns across demographic, geographic, and behavioral dimensions.
 
-### Supply Chain Insight
-Customer lifestyle segmentation improves:
-- Personalized product offerings
-- Inventory planning for targeted customer groups
-- Demand prediction accuracy
+The analysis examined:
 
----
+### Customer Demographics
 
-## 5. Occupation Analysis
+```python
+Gender Analysis
 
-### Findings
-Top contributing professions:
-- IT
-- Healthcare
-- Aviation
+Age Group Analysis
 
-### Supply Chain Insight
-Profession-based segmentation helps identify:
-- Stable demand groups
-- Premium customer segments
-- Higher purchasing power clusters
+Marital Status Analysis
 
----
+Occupation Analysis
+```
 
-## 6. Product Category Analysis
+### Geographic Analysis
 
-### Findings
-Most purchased categories:
-- Food
-- Clothing
-- Electronics
+```python
+State-Wise Revenue Analysis
 
-### Supply Chain Insight
-Product category demand analysis supports:
-- Inventory optimization
-- Replenishment planning
-- Product prioritization
-- Demand forecasting
+Regional Demand Patterns
+
+Customer Distribution Analysis
+```
+
+### Product Analysis
+
+```python
+Product Category Performance
+
+Revenue Contribution
+
+Purchase Volume Analysis
+```
+
+The analysis identified key customer groups responsible for the majority of revenue generation and revealed meaningful differences in purchasing behavior across customer segments.
 
 ---
 
-# Key Business Insights
+## RFM Analysis
 
-The most valuable customer segment consists of:
+To better understand customer value, RFM (Recency, Frequency, Monetary) Analysis was performed.
 
-- Females
-- Age group 26–35
-- Married customers
-- Working professionals
-- Customers from high-demand states
+Each customer was evaluated based on:
 
-This segment contributes disproportionately to overall revenue generation.
+```python
+Recency   → How recently the customer purchased
 
----
+Frequency → How often the customer purchases
 
-# Business Recommendations
+Monetary  → How much revenue the customer generates
+```
 
-## 1. Customer-Centric Supply Chain Strategy
-Focus inventory and promotions around high-value customer segments.
+These metrics were used to classify customers into meaningful business segments.
 
----
+### Customer Segmentation Framework
 
-## 2. Regional Inventory Optimization
-Increase stock availability in high-demand states to reduce stockouts and improve service levels.
+```text
+High Recency
+High Frequency
+High Monetary
+        ↓
+Loyal / High-Value Customers
 
----
+Low Frequency
+Low Monetary
+        ↓
+At-Risk Customers
 
-## 3. Demand-Driven Replenishment
-Use purchasing trends to optimize replenishment cycles for high-demand product categories.
+High Frequency
+Moderate Monetary
+        ↓
+Growth Opportunity Customers
+```
 
----
-
-## 4. Personalized Marketing & Fulfillment
-Develop targeted campaigns for high-value customer groups to improve conversion and retention.
-
----
-
-## 5. Product Bundling Strategy
-Introduce category-based bundling to increase Average Order Value (AOV).
-
----
-
-## 6. Supply Chain Visibility
-Use customer analytics to improve:
-- Demand visibility
-- Forecasting accuracy
-- Inventory responsiveness
+RFM analysis provided a structured method for identifying the most profitable customer groups and prioritizing customer retention efforts.
 
 ---
 
-# Skills Demonstrated
+## Cohort Analysis
 
-## Data Analytics Skills
-- Exploratory Data Analysis
-- Data Cleaning
-- Data Visualization
-- Customer Segmentation
-- Business Analytics
+Cohort Analysis was used to evaluate customer retention and repeat purchase behavior over time.
 
-## Supply Chain Analytics Skills
-- Demand Analysis
-- Customer-Centric Supply Chain Thinking
-- Regional Demand Planning
-- Inventory Insight Generation
-- Strategic Decision Support
+Customers were grouped according to their first purchase period and tracked across subsequent periods to understand retention trends.
 
-## Technical Skills
-- Python
-- Pandas
-- Seaborn
-- Matplotlib
-- Jupyter Notebook
+### Cohort Framework
+
+```text
+Customer Acquisition Month
+            ↓
+Repeat Purchase Tracking
+            ↓
+Retention Measurement
+            ↓
+Cohort Performance Comparison
+```
+
+This analysis helped identify:
+
+* Customer retention trends
+* Repeat purchase behavior
+* Customer lifetime patterns
+* Potential churn indicators
+
+The results provided insight into how effectively customers were retained after their initial purchase.
 
 ---
 
-# Project Outcomes
+## Customer Clustering
 
-This project demonstrates how customer analytics can support strategic supply chain decision-making through:
-- Better demand understanding
-- Improved customer targeting
-- Enhanced inventory planning
-- Smarter regional distribution strategies
+The final stage of the project focused on unsupervised machine learning for customer segmentation.
+
+Customer attributes and behavioral metrics were transformed into numerical features suitable for clustering algorithms.
+
+### Machine Learning Pipeline
+
+```text
+Feature Selection
+        ↓
+Feature Scaling
+        ↓
+Cluster Evaluation
+        ↓
+Customer Segmentation
+        ↓
+Business Interpretation
+```
+
+### Clustering Techniques Applied
+
+```python
+K-Means Clustering
+
+Customer Group Identification
+
+Cluster Profiling
+
+Behavioral Segmentation
+```
+
+The resulting clusters revealed distinct customer groups with different purchasing characteristics, spending behaviors, and engagement levels.
+
+---
+
+## Key Business Insights
+
+The analysis identified several high-value customer characteristics:
+
+* Customers generating disproportionate revenue contributions
+* Demographic groups with stronger purchasing behavior
+* High-performing geographic regions
+* Product categories driving demand
+* Customer segments with strong retention patterns
+* Customer groups suitable for targeted marketing campaigns
+
+These insights can support more effective business and operational decision-making.
+
+---
+
+## Business Value
+
+This project demonstrates how customer analytics can support data-driven decision-making across multiple business functions.
+
+Customer segmentation enables organizations to:
+
+* Improve customer retention
+* Optimize marketing spend
+* Increase customer lifetime value
+* Improve demand visibility
+* Support inventory planning
+* Enhance regional distribution strategies
+* Improve forecasting accuracy
+* Prioritize high-value customer groups
