@@ -253,7 +253,7 @@ These insights can support more effective business and operational decision-maki
 
 This project demonstrates how customer analytics can support data-driven decision-making across multiple business functions.
 
-Customer segmentation enables organizations to:
+Customer segmentation enables organizations to -
 
 * Improve customer retention
 * Optimize marketing spend
