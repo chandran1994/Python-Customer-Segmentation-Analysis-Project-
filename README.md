@@ -39,11 +39,12 @@ The project combines Exploratory Data Analysis (EDA), RFM Analysis, Cohort Analy
 
 ### RFM Analysis & Clustering
 
-📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/RMF%20Analysis%20%26%20Clustering%20Algorithm.ipynb)
+📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/RFM%20Analysis%20%26%20Clustering%20Algorithm.ipynb)
 
 ### Clustering Algorithms
 
 📓 [View Notebook](https://nbviewer.org/github/chandran1994/Python-Customer-Segmentation-Analysis-Project/blob/main/Clustering%20Algorithms.ipynb)
+
 
 ---
 
