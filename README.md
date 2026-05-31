@@ -22,7 +22,7 @@ The project combines Exploratory Data Analysis (EDA), RFM Analysis, Cohort Analy
 | ----------------------------------------- | ------------------------------------------------------------------------ |
 | Exploratory Data Analysis.ipynb           | Analyze customer demographics, purchasing behavior, and sales patterns   |
 | Cohort Analysis.ipynb                     | Measure customer retention and repeat purchase behavior over time        |
-| RFM Analysis & Clustering Algorithm.ipynb | Segment customers using Recency, Frequency, and Monetary metrics         |
+| | RMF Analysis & Clustering Algorithm.ipynb | Segment customers using Recency, Frequency, and Monetary metrics          |
 | Clustering Algorithms.ipynb               | Apply unsupervised machine learning techniques for customer segmentation |
 
 ---
