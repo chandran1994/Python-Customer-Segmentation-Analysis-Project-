@@ -45,9 +45,6 @@ This project focuses on identifying:
 
 # Supply Chain Perspective
 
-This project is not just marketing analytics.
-
-It directly supports core supply chain functions such as:
 - Demand Management
 - Inventory Optimization
 - Regional Distribution Planning
