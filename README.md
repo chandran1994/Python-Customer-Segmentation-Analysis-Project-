@@ -55,8 +55,6 @@ It directly supports core supply chain functions such as:
 - Revenue Forecasting
 - Product Demand Analysis
 
-The analysis aligns with the customer management principles discussed in supply chain analytics.
-
 ---
 
 # Tools & Technologies Used
@@ -94,8 +92,6 @@ The following preprocessing steps were performed:
 - Aggregation and grouping
 - Revenue calculations
 - Data validation
-
-Because real-world data arrives emotionally unstable.
 
 ---
 
